@@ -61,14 +61,15 @@ select {
 
 body {
   background-color: #fff;
-  padding-top: 76px;
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
   font-size: 16px;
+  overflow-x: hidden;
 }
 
 .container {
-  width: 1160px;
+  max-width: 1160px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -93,6 +94,7 @@ button {
 }
 
 .header {
+  margin-top: 76px;
   margin-bottom: 114px;
 }
 
@@ -421,16 +423,18 @@ button {
 }
 
 .contact__content {
+  padding-left: 18px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
 .contact__mockup {
-  width: 350.45px;
+  width: 304px;
   height: 574px;
   -webkit-backdrop-filter: blur(40px);
           backdrop-filter: blur(40px);
+  border-radius: 20px;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -438,7 +442,7 @@ button {
 
 .contact__mockup-first {
   position: relative;
-  margin-right: 19px;
+  margin-right: 68px;
   background-image: url("../assert/svg/mockupBg1.svg");
 }
 
@@ -446,21 +450,21 @@ button {
   content: url("../assert/svg/mockupCon1.svg");
   position: absolute;
   top: 103px;
-  left: -4px;
+  left: -18px;
 }
 
 .contact__mockup-second {
   position: relative;
   margin-top: 60px;
-  margin-right: 59px;
+  margin-right: 93px;
   background-image: url("../assert/svg/mockupBg2.svg");
 }
 
 .contact__mockup-second::after {
   content: url("../assert/svg/mockupCon2.svg");
   position: absolute;
-  top: 111px;
-  left: 15px;
+  top: 117px;
+  left: -11px;
 }
 
 .contact__consult {
