@@ -1,6 +1,16 @@
 .header {
-  position: relative;
+  // position: relative;
   margin-bottom: 114px;
+  // &::after {
+  //   content: url("../assert/svg/infoBg.svg");
+  //   position: absolute;
+  //   height: 100px;
+  //   width: 100%;
+  //   top: 0;
+  //   left: 0;
+  //   right: 0;
+  //   z-index: -2;
+  // }
   &__wrapper {
     display: flex;
     flex-direction: row;
