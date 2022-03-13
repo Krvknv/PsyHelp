@@ -1,0 +1,48 @@
+.footer {
+  width: 1200px;
+  height: 156px;
+  background: linear-gradient(
+    91.29deg,
+    rgba(182, 223, 255, 0.6) -21.23%,
+    rgba(182, 223, 255, 0.1) 101.92%
+  );
+  backdrop-filter: blur(200px);
+  border-radius: 10px 10px 0px 0px;
+  margin: 0 auto;
+  &__wrapper {
+    height: 156px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__creator {
+    text-align: center;
+    span {
+      a {
+        font-weight: 400;
+      }
+    }
+  }
+  &__lang {
+    width: 80px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    line-height: 22px;
+    align-items: center;
+  }
+
+  &__divider {
+    font-weight: 400;
+  }
+  &__ua {
+    font-family: inherit;
+    font-weight: 400;
+  }
+  &__btn {
+    background: transparent;
+    padding: 0;
+    border: none;
+  }
+}

@@ -1,0 +1,81 @@
+.intro {
+  display: grid;
+  grid-template-columns: 677px 327px;
+  grid-template-rows: 301px 289px;
+  column-gap: 23px;
+
+  &::after {
+    content: url("../assert/svg/introBg.svg");
+    position: absolute;
+    width: 1338px;
+    height: 1031px;
+    left: 0;
+    right: 0;
+    top: -0;
+    z-index: -1;
+  }
+}
+.form {
+  margin-top: 60px;
+  &__title {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    width: 521px;
+    line-height: 46px;
+    margin-bottom: 21px;
+  }
+  &__text {
+    font-size: 24px;
+    width: 507px;
+    line-height: 33px;
+  }
+}
+.consult {
+  margin-left: 302px;
+  position: relative;
+  width: 344px;
+  height: 222px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 32px 30px;
+  background: linear-gradient(
+    151.9deg,
+    rgba(255, 255, 255, 0.4) -53.37%,
+    rgba(255, 255, 255, 0.4) 100%,
+    rgba(255, 255, 255, 0.2) 100%
+  );
+  backdrop-filter: blur(40px);
+  border-radius: 10px;
+
+  &::after {
+    content: url("../assert/svg/Polygon.svg");
+    width: 41px;
+    height: 39px;
+    position: absolute;
+    right: -40px;
+    top: 85px;
+  }
+  &__text {
+    line-height: 22px;
+    margin-bottom: 20px;
+  }
+}
+.mockup {
+  width: 304px;
+  height: 574px;
+  backdrop-filter: blur(40px);
+  border-radius: 20px;
+  background-image: url("../assert/svg/phoneIntro.svg");
+}
+.btn {
+  width: 240px;
+  height: 50px;
+  background: #2196f3;
+  border-radius: 60px;
+  line-height: 22px;
+  color: #ffffff;
+  border: none;
+  line-height: 22px;
+}

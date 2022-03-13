@@ -1,0 +1,100 @@
+.contact {
+  position: relative;
+  margin-bottom: 99px;
+  &::after {
+    content: url("../assert/svg/contactBg.svg");
+    position: absolute;
+    width: 1516.24px;
+    height: 1088.03px;
+    bottom: 0;
+    right: 17px;
+    z-index: -1;
+  }
+  &__title {
+    margin-bottom: 63px;
+  }
+  &__content {
+    display: flex;
+  }
+  &__mockup {
+    width: 350.45px;
+    height: 574px;
+    backdrop-filter: blur(40px);
+
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    &-first {
+      position: relative;
+      margin-right: 19px;
+      background-image: url("../assert/svg/mockupBg1.svg");
+      &::after {
+        content: url("../assert/svg/mockupCon1.svg");
+        position: absolute;
+        top: 103px;
+        left: -4px;
+      }
+    }
+    &-second {
+      position: relative;
+      margin-top: 60px;
+      margin-right: 59px;
+      background-image: url("../assert/svg/mockupBg2.svg");
+      &::after {
+        content: url("../assert/svg/mockupCon2.svg");
+        position: absolute;
+        top: 111px;
+        left: 15px;
+      }
+    }
+  }
+  &__consult {
+    margin-top: 104px;
+  }
+  &__form {
+    margin-bottom: 44px;
+    width: 344px;
+    height: 222px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 32px 30px;
+    background: linear-gradient(
+      151.9deg,
+      rgba(255, 255, 255, 0.4) -53.37%,
+      rgba(255, 255, 255, 0.4) 100%,
+      rgba(255, 255, 255, 0.2) 100%
+    );
+    backdrop-filter: blur(40px);
+    border-radius: 10px;
+    &::after {
+      content: url("../assert/svg/Polygon.svg");
+      width: 41px;
+      height: 39px;
+      position: absolute;
+      right: 343px;
+      top: 85px;
+      transform: rotate(180deg);
+    }
+  }
+  &__text {
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 20px;
+  }
+  &__subform {
+    display: flex;
+    flex-direction: column;
+  }
+  &__subformtitle {
+    margin-bottom: 32px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+  }
+  &__subformsubtitle {
+    margin-bottom: 21px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+}

@@ -1,0 +1,83 @@
+.symptom {
+  position: relative;
+  &::after {
+    content: url("../assert/svg/symptomBg.svg");
+    position: absolute;
+    width: 1103px;
+    height: 822.19px;
+    left: -192px;
+    top: -115px;
+    z-index: -1;
+  }
+  &__title {
+    margin-bottom: 60px;
+  }
+  &__set {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 44px 141px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 84px;
+  }
+  &__item {
+    width: 195px;
+  }
+  &__img {
+    width: 134px;
+    height: 134px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  &__subtitle {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  &__form {
+    display: flex;
+  }
+  &__consult {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 301px;
+    height: 277px;
+    background: linear-gradient(
+      151.9deg,
+      rgba(255, 255, 255, 0.6) -53.37%,
+      rgba(255, 255, 255, 0.4) 100%,
+      rgba(255, 255, 255, 0.4) 100%
+    );
+    backdrop-filter: blur(40px);
+    border-radius: 10px;
+    &::after {
+      content: url("../assert/svg/Polygon.svg");
+      width: 41px;
+      height: 39px;
+      position: absolute;
+      right: -40px;
+      top: 121px;
+    }
+  }
+  &__icon {
+    width: 240.69px;
+    height: 142.4px;
+    background-image: url("../assert/svg/rafiki.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  &__text {
+    max-width: 528px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    margin-left: 97px;
+    margin-top: 60px;
+  }
+}

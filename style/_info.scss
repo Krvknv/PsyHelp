@@ -1,0 +1,51 @@
+.info {
+  display: flex;
+  margin-bottom: 192px;
+  position: relative;
+  margin-bottom: 200px;
+
+  &::after {
+    content: url("../assert/svg/infoBg.svg");
+    position: absolute;
+    width: 1140px;
+    height: 422px;
+    left: -210px;
+    top: -133px;
+    z-index: -1;
+  }
+  &__text {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    max-width: 455px;
+  }
+  &__img {
+    margin-top: 77px;
+    background-image: url("../assert/png/plane.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 453.52px;
+    height: 413.82px;
+    margin-right: 66px;
+    position: relative;
+    &::after {
+      content: "KYIV GHOST";
+      position: absolute;
+      transform: rotate(32.61deg);
+      font-size: 16px;
+      line-height: 22px;
+      top: 208px;
+      left: 192px;
+    }
+  }
+}
+.title {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 46px;
+  max-width: 709px;
+  margin-bottom: 30px;
+  margin-top: 182px;
+}

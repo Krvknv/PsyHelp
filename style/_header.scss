@@ -1,0 +1,26 @@
+.header {
+  position: relative;
+  margin-bottom: 114px;
+  &__wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+.telegram {
+  display: flex;
+  gap: 14px;
+  &__text {
+    line-height: 22px;
+    font-weight: 300;
+  }
+}
+.logo {
+  background-image: url("../assert/svg/logo.svg");
+  width: 67px;
+  height: 18px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
